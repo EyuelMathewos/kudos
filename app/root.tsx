@@ -8,7 +8,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import stylesheet from "./styles/app.css";
+import stylesheet from "~/styles/app.css";
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesheet },
 
